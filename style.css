@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     font-family: 'Lucida Sans Regular';
+    line-height: 1.6;
+    color: #222;
+   
+}
+#home-container {
+    width:100%;
+     height: 100%;
+     background-color: rgba(139,213,230,255);
+    display:grid;
+    grid-template-rows: 100px 70px auto 100px;
+    grid-template-areas: "header  " 
+                        "nav  "
+                        "main "
+                        "footer ";  
+                        ;
+            
+.background {
+    background-image: url(images/Home.jpg);
+    background-position:top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+}
+header {
+    grid-row: header ;
+   
+}
+nav {
+    grid-row: nav;
+    background-color: rgb(20, 202, 243);
+    width: 50%;
+    margin: auto;
+    padding: .3em;
+    text-align: center;
+    border-radius: 1rem;
+}
+main {
+    grid-row: main;  
+}
+#main-page{
+    height:600px;
+}
+footer {
+    grid-row: footer;
+    background-color: aliceblue;
+}
+#logo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #0d27cf;
+}
+
+.tagline {
+    font-size: 1rem;
+    font-style: italic;
+    color: #e0f2f1;
+}
+ header div{
+    width:auto;
+    height:auto;
+   /*  background-color: aquamarine; */
+    float: left;
+    margin:10px 135px;
+    padding: .2em;
+}
+nav li{ display: inline;
+margin: 1px 8px;
+padding:1em;
+}
+ .block{
+    width:40%;
+    height:auto;
+ /* background-color: rgb(244, 127, 255); */ 
+    margin:40px 100px;
+    border-radius: 1rem;
+    text-align: justify;
+ }
+
+
+article{
+    width:100%;
+    height:auto;
+    /* background-color: pink; */
+}
+section{
+    width:55%;
+    height:auto;
+    background-color: rgb(215, 228, 231);
+    padding:1em;
+    margin:10px;
+    border-radius: 1rem;
+    text-align: justify;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+aside{
+    width:40%;
+    height: auto;
+    background-color: rgb(215, 228, 231);
+    padding:1em;
+    margin:10px;
+    border-radius: 1rem;
+}
+.dropdown button{
+        background-color: #0d27cf;
+        color: aqua;
+        padding: 20px;
+        width:450px;
+        text-align: left;
+        font-weight: bold;
+        border: none;
+        text-transform: uppercase;
+       font-size: medium;
+       cursor: pointer;
+       
+}
+.dropdown .content{
+    display: none;
+    background-color: lightblue;
+    padding:0px 30px;
+    width:450px;
+}
+.dropdown:hover .content{
+    display: block;
+}
+article div{
+    width:400px;
+    padding:10px;
+}
+div ol{
+    list-style-type: disc;
+}
+#fname{
+     width: 70%;
+     height: 30px;
+}
+#sname{
+    width: 70%;
+    height: 30px;
+}
+#email{
+    width: 70%;
+    height: 30px;
+}
+#message{
+    width: 70%;
+    height: 150px;
+}
+.form-format{
+    width:55%;
+    margin:auto;
+    background-color: rgb(20, 202, 243);
+    border-radius: 5%;
+    padding:40px 60px;
+    border: 2px solid #00A4BD;
+    padding: 10px;
+    box-shadow: 6px 4px #00A4BD;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color:black;  
+}
+a:hover{
+    background-color: aliceblue;
+}
+h2{ text-decoration: wavy;
+    color:rgba(0, 149, 255, 0.93);
+    text-transform: uppercase ;
+    font-weight: bold;
+}
+aside img{
+    width:100%;
+    height:350px;
+}
+form{
+    width:60%;
+    margin:auto;
+}
+form ol{
+    list-style: none;
+}
+form label{
+    display: inline-block;
+    width: 100px;
+}
+form li{
+    margin-bottom: 2em;
+}
+.width{
+    width:280px;
+    height:auto;
+    margin-top: 10px;
+}
+.quiz{
+    width: 40%;
+    margin: 50px;
+    height:auto;
+}
+.color-white{
+    background-color: antiquewhite;
+}
+.fieldset{
+    width:480px;
+}
+.space{
+    padding-bottom: 20px;
+}
+ .required{
+    color: red;
+ }
+ footer li{ display: inline;
+    margin: 1px 8px;
+    padding:1em;
+}
+.skip-link {
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    background: #ffd400;
+    color: #000;
+    padding: .5rem .75rem;
+    border-radius: .25rem;
+    font-weight: 600;
+  }
+  .skip-link:focus {
+    top: .5rem;
+    left: .5rem;
+    z-index: 1000;
+    outline: 2px solid #000;
+  }
+
+  /* Always show focus outlines for keyboard users */
+  :focus-visible {
+    outline: 3px solid #0d27cf;
+    outline-offset: 3px;
+  }
+  table{
+    width:30%;
+   background-color:rgb(215, 228, 231)S;
+   border-collapse: collapse;
+   border: solid;
+}
+  th, td {
+    border: 2px solid #141313; 
+    padding: 8px;
+    text-align: left;
+  }
+ 
+
+
